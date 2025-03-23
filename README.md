@@ -37,7 +37,7 @@ This project was built as part of the [Microsoft Learn Module: Work with Git loc
 
 ## Screenshot
 
-![App Screenshot](https://github.com/user-attachments/assets/a0aeae22-2a21-4b05-a7cf-e9f1c601f433)
+![App Screenshot](https://github.com/user-attachments/assets/fbdac196-d43c-4bf7-81d8-1f80ebc9b2b8)
 
 ---
 
