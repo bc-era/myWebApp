@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@section Styles {
+    <style>
+        body {
+            animation: gradientShift 20s infinite;
+            background: linear-gradient(270deg, #ff7e5f, #feb47b, #86A8E7, #91EAE4);
+            background-size: 800% 800%;
+            transition: background 1s ease-in-out;
+        }
+
+        @@keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h1, p {
+            color: white;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+        }
+    </style>
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://azure.microsoft.com/services/devops/">Azure DevOps</a>.</p>
+</div>
